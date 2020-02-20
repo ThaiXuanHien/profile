@@ -1,0 +1,77 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #ff5596 50%, #F7D25B 50%) fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-flex {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-center {
+    display: flex;
+    flex-direction: row;
+    width: 820px;
+    height: 640px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container-left {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.container-social {
+    text-align: center;
+    animation-iteration-count: infinite;
+}
+
+.container-social>a {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.container-right {
+    border-radius: 15px;
+    flex: 1;
+    margin-top: 0;
+    padding: 20px;
+}
+
+.info {
+    color: #ff5596;
+    margin-right: 16px;
+}
+
+.skills-bar {
+    background-color: #f59dbf;
+    border-radius: 16px;
+}
+
+.progress-bar {
+    padding: 0.1em 16px;
+    border-radius: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff5596;
+}
+
+p {
+    font-weight: bold;
+    color: #ff5596;
+}
+
+.sothich p {
+    display: inline;
+}
+
+.mau {
+    color: #F7D25B;
+}
