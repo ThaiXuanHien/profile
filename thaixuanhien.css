@@ -2,7 +2,8 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to right, #ff5596 50%, #F7D25B 50%) fixed;
+    /*background: linear-gradient(to right, #26C9FF 50%, #001D26 50%) fixed;*/
+    background-color: #001D26;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -45,12 +46,12 @@ body {
 }
 
 .info {
-    color: #ff5596;
+    color: #26C9FF;
     margin-right: 16px;
 }
 
 .skills-bar {
-    background-color: #f59dbf;
+    background-color: #26C9FF;
     border-radius: 16px;
 }
 
@@ -58,13 +59,13 @@ body {
     padding: 0.1em 16px;
     border-radius: 16px;
     text-align: center;
-    color: #fff;
-    background-color: #ff5596;
+    color: #001D26;
+    background-color: #26C9FF;
 }
 
 p {
     font-weight: bold;
-    color: #ff5596;
+    color: #26C9FF;
 }
 
 .sothich p {
@@ -72,5 +73,5 @@ p {
 }
 
 .mau {
-    color: #F7D25B;
+    color: #26C9FF;
 }
