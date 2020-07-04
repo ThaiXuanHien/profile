@@ -7,6 +7,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+span.hr {
+    display: inline-block;
+    border-top: 2px solid #26C9FF;
+    width: 100px;
+    margin: 0px 10px 5px 10px;
+}
+
 .body-flex {
     height: 100%;
     display: flex;
@@ -32,6 +39,7 @@ body {
 .container-social {
     text-align: center;
     animation-iteration-count: infinite;
+    margin-bottom: 50px;
 }
 
 .container-social>a {
@@ -74,4 +82,15 @@ p {
 
 .mau {
     color: #26C9FF;
+}
+
+.sothich {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    color: #26C9FF;
+    font-size: 25px;
+    font-weight: bold;
 }
